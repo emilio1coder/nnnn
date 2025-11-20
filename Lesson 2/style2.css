@@ -1,0 +1,17 @@
+.flex{
+    background-color: #f8cd7b;
+    height:250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kvadrat{
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin: 20px;
+}
+.kvadrat:hover{
+    background-color: silver;
+    border-radius: 50%;
+}
