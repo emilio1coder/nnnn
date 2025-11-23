@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.ads{
+    height: 10vh;
+    background-color: #D9D9D9;
+}
+header{
+    height: 20vh;
+    background-color: #C2C4AC;
+}
+main{
+    height: 60vh;
+    display: flex;
+}
+footer{
+    height: 10vh;
+    background-color: #D9D9D9;
+}
+section{
+    width: 19vw;
+    background-color: #9EA087;
+}
+article{
+    width:62vw;
+    background-color: #78786F;
+}
+aside{
+    width: 19vw;
+    background-color: #9EA087;
+}
