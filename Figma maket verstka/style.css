@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-variation-settings:
+                "slnt" 0,
+                "wdth" 100,
+                "GRAD" 0,
+                "XOPQ" 96,
+                "XTRA" 468,
+                "YOPQ" 79,
+                "YTAS" 750,
+                "YTDE" -203,
+                "YTFI" 738,
+                "YTLC" 514,
+                "YTUC" 712;
+}
+/*-----------------------ПЕРШИЙ_БЛОК--------------------------*/
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp11410778.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    height: 50vh;
+    width: 60vw;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.head button{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    box-shadow: 2px 7px 5px 0px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 2px 7px 5px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 2px 7px 5px 0px rgba(0,0,0,0.42);
+
+}
+
+.photo {
+    height: 100%;
+    width: 50%;
+    background-image: url('https://th.bing.com/th/id/R.119d339a1c6f9d14e310574617b22824?rik=8HKKw2%2bSOG5zCA&riu=http%3a%2f%2feskipaper.com%2fimages%2fforest-12.jpg&ehk=ge8qm%2bIbtEodrXV30uufgroB%2fBpjC5TkDa7LD2woOEQ%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+}
+/*-----------------БЛОК_ВТОРОЙ------------------------------------*/
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.imageshine.in/uploads/gallery/White-abstract-background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.info {
+    width: 50%;
+    height: 100%;
+    background: rgba(189, 189, 189, 0.71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.youtube{
+    margin: 50px;
+
+}
+.seredyna{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-bet;
+    align-items: center;
+}
+h2{
+    display: flex;
+    align-self: flex-start;
+}
+/*------------------------БЛОК ТРЕТИЙ----------------------------*/
+footer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/featured/white-plain-background-cxs6kmx3wgbnzz0x.jpg');
+    background-size: cover;
+}
+
+
