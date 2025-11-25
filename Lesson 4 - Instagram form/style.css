@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rega {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    display: block;
+}
+span{
+    display: block;
+}
+input[type=email], input[type=password]{
+    width: 270px;
+    height: 37.6px;
+    margin: 2px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+input[type=submit]{
+    width: 270px;
+    height: 32px;
+    margin: 10px 40px;
+    border: none;
+    background-color: rgb(81, 157, 253);
+    color: white;
+    border-radius: 10px;
+}
+.variant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fbrega{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 350px;
+    height: 390px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+.last{
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
