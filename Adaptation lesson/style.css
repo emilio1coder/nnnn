@@ -1,0 +1,25 @@
+.body{
+    margin:0;
+}
+
+header{
+    width:100%;
+    height:30vh;
+    background-color: #265cfb;
+}
+
+section{
+    width:50%;
+    height:70vh;
+    background-color: #26fb42;
+}
+
+article{
+    width:100%;
+    height:70vh;
+    background-color: #ff0000;
+}
+
+main{
+    display:flex;
+}
