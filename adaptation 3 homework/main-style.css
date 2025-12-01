@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-size: 26px;
+}
+
+span, section, article, footer{
+    background-color: red;
+    border: 1px solid darkslategrey;
+    margin: 5px;
+    font-size: 3vh;
+    padding: 8px;
+    text-align: end;
+
+
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+span{
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    margin: 5px 5px
+}
+
+main {
+    display: grid;
+    margin-top:5vh;
+    height: 85vh;
+    width: 100%;
+    grid-template-areas:
+            "section section"
+            "article-1 article-2"
+            "article-3 article-4"
+            "footer footer";
+    grid-template-rows: 4fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr;
+}
+section{
+    grid-area: section;
+}
+.article-1{
+    grid-area: article-1;
+}
+.article-2{
+    grid-area: article-2;
+}
+.article-3{
+    grid-area: article-3;
+}
+.article-4{
+    grid-area: article-4;
+}
+footer{
+    grid-area: footer;
+}
