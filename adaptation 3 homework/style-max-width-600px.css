@@ -1,27 +1,32 @@
 @media screen and ( max-width: 600px ) {
-    *{
+    * {
         margin: 0;
     }
-    body{
+
+    body {
         height: 180vh;
         width: 100%;
     }
-    nav{
+
+    nav {
         display: inline;
         flex-direction: column;
 
 
     }
-    span{
+
+    span {
         width: 100%;
         padding: 0;
         margin: 5px 0;
         text-align: center;
 
     }
-    span, section, article, footer{
-    text-align: center;
-}
+
+    span, section, article, footer {
+        text-align: center;
+    }
+
     main {
         display: grid;
         height: 160vh;
@@ -35,4 +40,5 @@
             "footer";
         grid-template-rows: 5fr 3fr 3fr 3fr 3fr 1fr;
         grid-template-columns: 2fr;
+    }
 }
