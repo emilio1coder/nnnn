@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+    article, section, nav, header{
+        background-color: rgba(2,0,255,0.71);
+        border: 1px solid rgba(0,0,0,0.71);
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "article article article nav"
+    "section-1 section-2 section-3 nav";
+    grid-template-columns:2fr 2fr 2fr 4fr;
+    grid-template-rows:3fr 3fr 3fr;
+}
+header{
+    grid-area: header;
+}
+.section-1{
+    grid-area: section-1;
+}
+.section-2{
+    grid-area: section-2;
+}
+.section-3{
+    grid-area: section-3;
+}
+article{
+    grid-area: article;
+}
+nav{
+    grid-area: nav;
+}
